@@ -1,5 +1,5 @@
 <template>
-  <section class="posts">
+  <section class="section">
     <div class="container">
       <h1 class="posts__title">Nuxt blog</h1>
 
@@ -57,10 +57,6 @@ export default {
 </script>
 
 <style scoped>
-.posts {
-  margin: 2.8rem 0;
-}
-
 .posts__title {
   font-size: 48px;
   margin-bottom: 24px;
@@ -123,6 +119,10 @@ export default {
   font-weight: 700;
 
   margin-bottom: 8px;
+}
+
+.card__description::first-letter {
+  text-transform: capitalize;
 }
 
 @media (max-width: 767px) {
