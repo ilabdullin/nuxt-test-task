@@ -64,21 +64,32 @@ export default {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
-  justify-content: center;
 }
 
 .post__img {
   display: block;
   max-width: 100%;
   height: auto;
+
+  margin: 0 auto;
 }
 
 .post__content {
-  margin-top: 18px;
+  margin-top: 32px;
+}
+
+.post__title {
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .post__title::first-letter {
   text-transform: capitalize;
+}
+
+.post__text {
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .post__text::first-letter {
